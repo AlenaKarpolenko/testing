@@ -8,4 +8,4 @@
 https://alenakarpolenko.github.io/ahj/
 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0p81qhf64qxk6jub?svg=true)](https://ci.appveyor.com/project/AlenaKarpolenko/ahj)
+https://alenakarpolenko.github.io/ahj/
