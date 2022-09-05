@@ -5,7 +5,5 @@
 [Migration Guide](https://webpack.js.org/migrate/5/)
 
 
-https://alenakarpolenko.github.io/ahj/
-
 
 https://alenakarpolenko.github.io/ahj/
