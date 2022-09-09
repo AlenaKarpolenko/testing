@@ -1,11 +1,8 @@
-// TODO: write code here
+/* eslint-disable linebreak-style */
+import GoblinClick from './GoblinClick';
 
-// comment this to pass build
-// const unusedVariable = 'variable';
-
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
-}
-
-// console.log('app.js included');
+document.addEventListener('DOMContentLoaded', () => {
+	const goblinPlay = new GoblinClick();
+	goblinPlay.createField();
+	goblinPlay.punchGoblin.bind(goblinPlay)();
+});
