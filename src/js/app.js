@@ -1,8 +1,8 @@
-/* eslint-disable linebreak-style */
-import GoblinClick from './GoblinClick';
+import CardValidatorWidget from './CardValidatorWidget';
+import CardValidator from './CardValidator';
 
-document.addEventListener('DOMContentLoaded', () => {
-	const goblinPlay = new GoblinClick();
-	goblinPlay.createField();
-	goblinPlay.punchGoblin.bind(goblinPlay)();
-});
+const cardValidatorWidget = new CardValidatorWidget();
+cardValidatorWidget.bindToDOM(document.querySelector('#card_validator_widget_container'));
+
+const cardValidator = new CardValidator(cardValidatorWidget);
+cardValidator.init();

@@ -1,7 +1,7 @@
 {
   "name": "webpack5",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/0p81qhf64qxk6jub?svg=true)](https://ci.appveyor.com/project/AlenaKarpolenko/ahj)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -40,5 +40,12 @@
   "dependencies": {
     "file-loader": "^6.2.0"
   },
-  "repository": "https://github.com/AlenaKarpolenko/ahj.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenaKarpolenko/ahj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlenaKarpolenko/ahj/issues"
+  },
+  "homepage": "https://github.com/AlenaKarpolenko/ahj#readme"
 }
